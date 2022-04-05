@@ -1,0 +1,18 @@
+.tablesec{
+    margin: 0;
+    padding: 0px 30px;
+}
+
+.tablesec h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.tablesec h2{
+    margin-top: 15px;
+}
+
+.tablesec .tableContent{
+    margin-top: 15px;
+}

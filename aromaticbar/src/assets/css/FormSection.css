@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.formsec{
+    padding: 20px 20px;
+}
+
+.formsec .formhead h1{
+    font-size: 20px;
+    color: rgba(49, 49, 216, 0.74);
+    font-weight: bold;
+}
+
+.formsec .formhead p{
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.842);
+}
+
+.formsec .formbg{
+    background-color: #fff;
+    height: 480px;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 6px 6px;
+    padding: 30px 20px;
+}
+
+.formsec .formbg .formeleText{
+    /* border: 1px solid; */
+    float: left;
+    padding: 15px 15px;
+    
+}
+
+.formsec .formbg .formeleText input{
+    margin-top: 7px;
+    background-color: #cfd5dba9;
+    width: 500px;
+    padding: 6px 8px;
+    display: flex;
+    border-radius: 5px 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: rgba(49, 49, 216, 0.74);
+}
+
+.formsec .formbg .formeleText input:focus{
+    outline: none;
+}
+
+.formsec .formbg .formeleText label{
+   font-size: 15px;
+   font-weight: bold;
+   color: #000000ad;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 1.2px;
+}
+
+.formsec .formbg .formeleCheck{
+    /* border: 1px solid; */
+    float:right;
+    padding: 10px 60px;
+}
+
+.formsec .formbg .formeleCheck .questionSection1, .questionSection2, .questionSection3, .questionSection4{
+    margin-top: 15px;
+}
+
+.formsec .formbg .formeleCheck .ques1, .ques2, .ques3, .ques4{
+    font-family: 'Roboto', sans-serif;
+}
+
+.formsec .formbg .formeleCheck .feedItems li{
+    float: left;
+    margin-right: 15px;
+}
+
+.formsec .formbg .formeleCheck .feedItems li input{
+    margin-right: 5px;
+}
+
+.formsec .formbg .btn-sub{
+    position: absolute;
+    right: 65px;
+    bottom: 50px;
+    border: 0px;
+    background-color: green;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 7px 7px;
+    letter-spacing: 1.1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#successMsg{
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#ErrorMsg{
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
